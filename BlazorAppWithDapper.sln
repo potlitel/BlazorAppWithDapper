@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppWithDapper", "BlazorAppWithDapper.csproj", "{406208D7-C290-4513-B993-4B435B470714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppWithDapper", "BlazorAppWithDapper.csproj", "{406208D7-C290-4513-B993-4B435B470714}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{7B5CDE12-2C51-44EA-95C3-A111369043E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{406208D7-C290-4513-B993-4B435B470714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406208D7-C290-4513-B993-4B435B470714}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{406208D7-C290-4513-B993-4B435B470714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5CDE12-2C51-44EA-95C3-A111369043E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5CDE12-2C51-44EA-95C3-A111369043E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5CDE12-2C51-44EA-95C3-A111369043E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7B5CDE12-2C51-44EA-95C3-A111369043E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5CDE12-2C51-44EA-95C3-A111369043E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5CDE12-2C51-44EA-95C3-A111369043E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
